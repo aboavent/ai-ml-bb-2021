@@ -8,6 +8,21 @@
 - Increase visibility and trust within the technical community and AWS organization
 - Motivate the Builder to dive even deeper in their specialized domain using AWS services
 
+## Instructions to log in to AWS Event Engine Accounts
+1. Click the [URL](https://dashboard.eventengine.run/login)
+2. Enter the AWS provided hash code in the text box and click "Accept Terms and Login"
+3. Select "Continue With Login with Amazon" in following screen 
+    ![Amazon login](../images/aws-account-login/amazonretaillogin.png)
+4. Enter your Amazon retail account credetials to login in the next screen
+    ![Amazon login2](../images/aws-account-login/amazonretiallogin2.png)
+5. Follow below screen instructions to get to AWS Console
+    ![awscosnole](../images/aws-account-login/AWSConsole.png)
+    
+    ![awscosnole2](../images/aws-account-login/openawsconsole.png)
+
+
+## Additional Learning Materials
+
 
 ### Data Engineering
 
