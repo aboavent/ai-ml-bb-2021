@@ -10,12 +10,11 @@
 
 ## Instructions to log in to AWS Event Engine Accounts
 1. Click the [URL](https://dashboard.eventengine.run/login)
-2. Enter the AWS provided hash code in the text box and click "Accept Terms and Login"
-3. Select "Continue With Login with Amazon" in following screen 
-    ![Amazon login](../main/images/aws-account-login/amazonretaillogin.png)
-4. Enter your Amazon retail account credetials to login in the next screen
-    ![Amazon login2](../main/images/aws-account-login/amazonretiallogin2.png)
-5. Follow below screen instructions to get to AWS Console
+2. Enter the AWS provided hash code in the text box and click "Accept Terms and Login". Your instructor will provide a team hash code for you to run the labs of the day
+![Amazon login](../main/images/aws-account-login/teamhash.png)
+3. Enter either your Amazon retail account credetials or request an OTP to be sent to your personal email address
+    ![Amazon login](../main/images/aws-account-login/login-options.png)
+4. Follow below screen instructions to get to AWS Console
     ![awscosnole](../main/images/aws-account-login/AWSConsole.png)
     
     ![awscosnole2](../main/images/aws-account-login/openawsconsole.png)
