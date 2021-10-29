@@ -1,5 +1,5 @@
 ![Amazon login](../main/images/blackbelt.png)
-# What the AI/ML Black belt track is all about?
+# What the AI/ML Black Belt program track is all about?
 
 
 - Promote a community of APN Builders with significant hands-on knowledge and practical experience
