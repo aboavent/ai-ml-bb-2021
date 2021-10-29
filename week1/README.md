@@ -10,8 +10,6 @@ https://aws-dataengineering-day.workshop.aws/
 In this workshop, we will explore how to use AWS Lake Formation to build, secure, and manage data lake on AWS.
 https://lakeformation.aworkshop.io/
 
-#### Lab Gotchas
-
 ### Optional Labs for home work
 
 EMR Workshop Lab 1 - EMR Cluster Creation: https://bit.ly/3nXhLjw
@@ -19,6 +17,12 @@ EMR Workshop Lab 1 - EMR Cluster Creation: https://bit.ly/3nXhLjw
 EMR Workshop Lab 2 - Hive Pig & EMR: https://bit.ly/2SURl3V
 
 EMR Workshop Lab 3 - Spark-based ETL on EMR: https://bit.ly/3nY5s6W
+
+### Optional Labs for home work
+
+AWS LAKE FORMATION WORKSHOP - https://lakeformation.workshop.aws/
+Using Amazon SageMaker with Apache Spark - https://github.com/aws/amazon-sagemaker-examples/tree/master/sagemaker-spark
+
 
 ## License
 
