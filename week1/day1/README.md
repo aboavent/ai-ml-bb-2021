@@ -5,7 +5,7 @@ Data Engineering workshop has hands-on lab and modules focus on ingestion, hydra
 
 https://aws-dataengineering-day.workshop.aws/
 
-### ETL on Amazon EMR Workshop
+## ETL on Amazon EMR Workshop
 
 EMR Workshop Lab 1 - EMR Cluster Creation: https://emr-etl.workshop.aws/cluster_creation.html
 
@@ -19,6 +19,10 @@ Complete these Sections:
 7. Orchestrating Amazon EMR with AWS Step Functions (Complete Later If You Have Time)
 8. Automatic Scaling (Complete Later If You Have Time)
 9. Clean Up Resources
+
+
+## Real Time ML Inference on streaming data
+
 
 ## Optional Labs for home work
 
