@@ -9,11 +9,16 @@ https://aws-dataengineering-day.workshop.aws/
 
 EMR Workshop Lab 1 - EMR Cluster Creation: https://emr-etl.workshop.aws/cluster_creation.html
 
-EMR Workshop Lab 2 - Hive Pig & EMR: 
-- https://emr-etl.workshop.aws/hive_workshop.html 
-- https://emr-etl.workshop.aws/pig_workshop.html
-
-EMR Workshop Lab 3 - Spark-based ETL on EMR: https://emr-etl.workshop.aws/spark_etl.html
+Complete these Sections:
+1. Setup
+2. Cluster Creation
+3. Spark-based ETL
+4. Hive (Complete Later If You Have Time)
+5. Pig (Complete Later If You Have Time)
+6. EMR Notebooks and SageMaker
+7. Orchestrating Amazon EMR with AWS Step Functions (Complete Later If You Have Time)
+8. Automatic Scaling (Complete Later If You Have Time)
+9. Clean Up Resources
 
 ## Optional Labs for home work
 
