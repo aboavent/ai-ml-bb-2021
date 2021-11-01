@@ -22,6 +22,7 @@ Complete these Sections:
 
 
 ## Real Time ML Inference on streaming data
+[Hands-on Lab](https://sagemaker-immersionday.workshop.aws/en/lab7.html)
 
 
 ## Optional Labs for home work
