@@ -1,1 +1,23 @@
+# Day 3
+
+## Bring you onw Custom Models
+- [Bring your own training-completed Pytorch model](https://github.com/aws-samples/amazon-sagemaker-custom-container)
+
+## SageMaker Clarify
+- [Hands-on Lab](https://sagemaker-immersionday.workshop.aws/en/lab5.html)
+
+## SageMaker Well-Architected
+
+Security on Amazon SageMaker 
+- [Implementing Guard Rails](https://d96a2n0rdrgcs.cloudfront.net/security_for_sysops/best_practice.html)
+- [Secure Networking](https://d96a2n0rdrgcs.cloudfront.net/security_for_sysops/team_resources.html)
+- [Secure Notebook](https://d96a2n0rdrgcs.cloudfront.net/security_for_sysops/secure_notebook.html)
+
+## Backup Labs (Homework)
+
+- [Bring your Own Script - Tensorflow in Script Mode](https://sagemaker-immersionday.workshop.aws/en/lab3/option2.html)
+
+- [Bring your own container](https://sagemaker-immersionday.workshop.aws/en/lab3/option1.html)
+
+
 
