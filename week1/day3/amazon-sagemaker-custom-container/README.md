@@ -92,15 +92,13 @@ It will take a few minutes for CloudFormation to complete provisioning of EC2 in
 1. Clone the github repo by running the following command:
 
     ``` 
-    git clone https://github.com/aws-samples/amazon-sagemaker-custom-container.git
+    git clone https://github.com/aboavent/ai-ml-bb-2021
     ``` 
     
-    ![c9OpenIDE](./images/c9OpenIDE.png)
-
     Before moving on, you want to increase the EBS volume size as building the Docker container for SageMaker deployment takes much space. You can accomplish that by [running resize.sh](https://docs.aws.amazon.com/cloud9/latest/user-guide/move-environment.html) script provided. 
 
     ``` 
-    cd amazon-sagemaker-custom-container   
+    cd ./ai-ml-bb-2021/week1/day3/amazon-sagemaker-custom-container/   
     sh resize.sh 100
     ``` 
 
