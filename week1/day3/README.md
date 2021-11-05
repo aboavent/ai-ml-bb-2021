@@ -5,6 +5,9 @@
 
 ## SageMaker Clarify
 - [Hands-on Lab](https://sagemaker-immersionday.workshop.aws/en/lab5.html)
+- [Fairness and Explainability with SageMaker Clarify](https://github.com/pedrosola/bbmlaws/blob/master/bias_and_explainability.ipynb) 
+- [Documentation](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_processing/fairness_and_explainability/fairness_and_explainability.html)
+
 
 ## SageMaker Well-Architected
 
