@@ -1,6 +1,6 @@
 # Day 3
 
-## Bring you onw Custom Models
+## Bring you own Custom Models
 - [Bring your own training-completed Pytorch model](https://github.com/aboavent/ai-ml-bb-2021/tree/main/week1/day3/amazon-sagemaker-custom-container)
 
 ## SageMaker Clarify
