@@ -9,6 +9,19 @@
 ## AWS Deep Learning Containers Setup, Training, and Inference with EC2, ECS, and EKS
 https://github.com/aboavent/ai-ml-bb-2021/tree/main/week2/day1/deeplearning-containers
 
+## Model Debugging, Model Monitoring, and AutoML
+https://sagemaker-immersionday.workshop.aws/en/lab4.html
+
+## Homework
+
+### Direct Marketing with Amazon SageMaker Autopilot
+https://github.com/aboavent/ai-ml-bb-2021/blob/main/week2/day1/autopilot.ipynb
+
+### Distributed Training with Amazon Sagemaker
+http://dsjn0irf6z142.cloudfront.net/ or https://github.com/shashankprasanna/distributed-training-workshop
+https://www.hpcworkshops.com/08-ml-on-parallelcluster.html
+
+
 ### Additional Resources
 - https://aws.amazon.com/blogs/machine-learning/multi-gpu-and-distributed-training-using-horovod-in-amazon-sagemaker-pipe-mode/
 - https://aws.amazon.com/blogs/machine-learning/reducing-training-time-with-apache-mxnet-and-horovod-on-amazon-sagemaker/
@@ -21,8 +34,5 @@ https://github.com/aboavent/ai-ml-bb-2021/tree/main/week2/day1/deeplearning-cont
 - https://aws.amazon.com/blogs/machine-learning/multi-gpu-and-distributed-training-using-horovod-in-amazon-sagemaker-pipe-mode/
 - https://github.com/aws-samples/sagemaker-horovod-distributed-training-tfkeras-pipemode
 - https://github.com/horovod/horovod/tree/master/examples/tensorflow
-
-## Homework
-
-## Distributed Training
-http://dsjn0irf6z142.cloudfront.net/
+- https://aws.amazon.com/blogs/machine-learning/reducing-training-time-with-apache-mxnet-and-horovod-on-amazon-sagemaker/
+- https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/
