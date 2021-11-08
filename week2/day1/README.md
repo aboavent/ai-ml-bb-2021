@@ -7,19 +7,23 @@
 - Distributed Training with Parameter Server and Horovod
 
 ## AWS Deep Learning Containers Setup, Training, and Inference with EC2, ECS, and EKS
-https://github.com/aboavent/ai-ml-bb-2021/tree/main/week2/day1/deeplearning-containers
+- https://github.com/aboavent/ai-ml-bb-2021/tree/main/week2/day1/deeplearning-containers
 
 ## Model Debugging, Model Monitoring, and AutoML
-https://sagemaker-immersionday.workshop.aws/en/lab4.html
+- https://sagemaker-immersionday.workshop.aws/en/lab4.html
 
 ## Homework
 
+
+
 ### Direct Marketing with Amazon SageMaker Autopilot
-https://github.com/aboavent/ai-ml-bb-2021/blob/main/week2/day1/autopilot.ipynb
+- https://github.com/aboavent/ai-ml-bb-2021/blob/main/week2/day1/autopilot.ipynb
 
 ### Distributed Training with Amazon Sagemaker
-http://dsjn0irf6z142.cloudfront.net/ or https://github.com/shashankprasanna/distributed-training-workshop
-https://www.hpcworkshops.com/08-ml-on-parallelcluster.html
+- https://github.com/aws/amazon-sagemaker-examples/blob/master/training/distributed_training/index.rst
+- https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger
+- http://dsjn0irf6z142.cloudfront.net/ or https://github.com/shashankprasanna/distributed-training-workshop
+- https://www.hpcworkshops.com/08-ml-on-parallelcluster.html
 
 
 ### Additional Resources
