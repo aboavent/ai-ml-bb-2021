@@ -317,7 +317,7 @@ aws ec2 create-key-pair --key-name DL-keypair --query 'KeyMaterial' --output tex
 ```
 
 
-Create EKS cluster
+Create EKS cluster. **Please note that the step below usually takes 10-15 minutes.**
 ```
 eksctl create cluster eksdl \
                       --version 1.17 \
