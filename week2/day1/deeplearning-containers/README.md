@@ -311,6 +311,12 @@ sudo mv ${HOME}/bin/$KS_PKG/ks /usr/local/bin
 Run aws configure for the IAM user from the Security Configuration section
 ```
 
+Create the key pair
+```
+aws ec2 create-key-pair --key-name DL-keypair --query 'KeyMaterial' --output text > DL-keypair.pem
+```
+
+
 Create EKS cluster
 ```
 eksctl create cluster eksdl \
@@ -319,7 +325,7 @@ eksctl create cluster eksdl \
                       --node-type=c5.4xlarge \
                       --timeout=40m \
                       --ssh-access \
-                      --ssh-public-key andre-DL \
+                      --ssh-public-key DL-keypair \
                       --region us-east-1 \
                       --auto-kubeconfig
 ```
@@ -336,7 +342,7 @@ kubectl get pods
 ```
 
 ## Pytorch Training (CPU-based)
-Create a pod file for your cluster. Save this file as pytorch.yaml
+Create a pod file for your cluster. Save this file as **pytorch.yaml**
 
 ```
 apiVersion: v1
@@ -381,7 +387,7 @@ Create the namespace. You may need to change the kubeconfig to point to the righ
 NAMESPACE=pt-inference; kubectl create namespace ${NAMESPACE}
 ```
 
-Create a file named pt_inference.yaml with the following content
+Create a file named **pt_inference.yaml** with the following content
 
 ```
 ---
