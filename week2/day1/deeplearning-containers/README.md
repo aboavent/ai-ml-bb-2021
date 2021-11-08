@@ -308,7 +308,7 @@ tar -xvf /tmp/$KS_PKG.tar.gz -C ${HOME}/bin
 sudo mv ${HOME}/bin/$KS_PKG/ks /usr/local/bin
 ```
 ```
-Run aws configure for the IAM user from the Security Configuration section
+Run aws configure for the IAM user from the Security Configuration section. You are copying the IAM user's AWS Access Key, then the AWS Secret Access Key that you accessed in the IAM console and pasting these into the prompts from aws configure.
 ```
 
 Create the key pair
