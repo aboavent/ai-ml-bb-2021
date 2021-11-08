@@ -22,6 +22,7 @@
 ### Distributed Training with Amazon Sagemaker
 - https://github.com/aws/amazon-sagemaker-examples/blob/master/training/distributed_training/index.rst
 - https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger
+- https://sagemaker-workshop.com/builtin/parallelized.html
 - http://dsjn0irf6z142.cloudfront.net/ or https://github.com/shashankprasanna/distributed-training-workshop
 - https://www.hpcworkshops.com/08-ml-on-parallelcluster.html
 
