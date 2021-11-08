@@ -78,7 +78,7 @@ Amazon Elastic Container Service (Amazon ECS) allows you to easily run, scale, a
 
 Amazon ECS enables you to grow from a single container to thousands of containers across hundreds of instances without creating additional complexity in how you run your application. You can run anything: applications, batch jobs, or microservices. Amazon ECS abstracts away all the complexity of the infrastructure so you can focus on designing, building, and running containerized applications.
 
-[![AWS Deep Learning Containers on ECS](../../../images/DLcontainers.png)](https://www.youtube.com/embed/6b0TC3V1ZJM)f
+[![AWS Deep Learning Containers on ECS](../../../images/DLcontainers.png)](https://www.youtube.com/embed/6b0TC3V1ZJM)
 
 ## Steps to setup ECS with CPU (watch the video above for more details if needed)
 Create a new security group **"securitygroup-ecs-cluster"** or update an existing security group to have the ports open for your desired inference server.
