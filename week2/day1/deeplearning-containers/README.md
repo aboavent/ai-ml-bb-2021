@@ -298,15 +298,7 @@ curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.11
 chmod +x aws-iam-authenticator
 cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$HOME/bin:$PATH
 ```
-Install ksonnet
-```
-export KS_VER=0.13.1
-export KS_PKG=ks_${KS_VER}_linux_amd64
-wget -O /tmp/${KS_PKG}.tar.gz https://github.com/ksonnet/ksonnet/releases/download/v${KS_VER}/${KS_PKG}.tar.gz
-mkdir -p ${HOME}/bin
-tar -xvf /tmp/$KS_PKG.tar.gz -C ${HOME}/bin
-sudo mv ${HOME}/bin/$KS_PKG/ks /usr/local/bin
-```
+
 ```
 Create an IAM and attach the AdministratorAcesss policy(only to make the steps of this lab easier) and copy both the AWS Access Key and AWS Secret Access Key. Then, run **aws configure** and used them to populate the fields **Access Key** and **Secret Access Key** by pasting them into the prompts for the aws configure command.
 ```
