@@ -19,7 +19,7 @@ docker run -it 763104351884.dkr.ecr.us-east-1.amazonaws.com/pytorch-training:1.6
 
 git clone https://github.com/pytorch/examples.git
 
-## Change training parameters: 3 epochs only (lines 80-81) 
+## Change training parameters for 3 epochs only (lines 80-81) in the main.py file 
 
 python examples/mnist/main.py --no-cuda
 ``` 
