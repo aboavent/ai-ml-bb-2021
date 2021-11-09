@@ -280,30 +280,29 @@ Install or upgrade AWS CLI. To access the required new Kubernetes features, you 
 sudo pip install --upgrade awscli
 ```
 
-Install eksctl by running the following commands
+Installing eksctl by running the following commands https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html
 ```
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 sudo mv /tmp/eksctl /usr/local/bin
 ```
-Install kubectl by running the following commands
+Installing kubectl by running the following commands https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 ```
-curl -o kubectl https://amazon-eks.s3-us-west-2.amazonaws.com/1.11.5/2018-12-06/bin/linux/amd64/kubectl
+curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.21.2/2021-07-05/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
 ```
 
-Install aws-iam-authenticator by running the following commands
+Installing aws-iam-authenticator by running the following commands
 ```
 curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.11.5/2018-12-06/bin/linux/amd64/aws-iam-authenticator
 chmod +x aws-iam-authenticator
 cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$HOME/bin:$PATH
 ```
 
-```
-Create an IAM and attach the AdministratorAcesss policy(only to make the steps of this lab easier) and copy both the AWS Access Key and AWS Secret Access Key. Then, run **aws configure** and used them to populate the fields **Access Key** and **Secret Access Key** by pasting them into the prompts for the aws configure command.
-```
 
-Create the key pair
+**Create an IAM and attach the AdministratorAcesss policy**(only to make the steps of this lab easier) and copy both the AWS Access Key and AWS Secret Access Key. Then, run **aws configure** and used them to populate the fields **Access Key** and **Secret Access Key** by pasting them into the prompts for the aws configure command.
+
+Create a key pair to be used by the worker nodes in the EKS cluster
 ```
 aws ec2 create-key-pair --key-name DL-keypair --query 'KeyMaterial' --output text > DL-keypair.pem
 ```
@@ -312,7 +311,7 @@ aws ec2 create-key-pair --key-name DL-keypair --query 'KeyMaterial' --output tex
 Create EKS cluster. **Please note that the step below usually takes 15-20 minutes.**
 ```
 eksctl create cluster eksdl \
-                      --version 1.17 \
+                      --version 1.21 \
                       --nodes 3 \
                       --node-type=c5.4xlarge \
                       --timeout=40m \
