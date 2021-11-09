@@ -49,7 +49,7 @@ python gluon-cv/scripts/classification/cifar/train_cifar10.py --model resnet18_v
 
 ### Apache MXNet (Incubating) Inference (CPU-based)
 ```
-docker run -it --name mms -p 80:8080  -p 8081:8081 763104351884.dkr.ecr.us-east-1.amazonaws.com/mxnet-inference:1.7.0-cpu-py36-ubuntu16.04 \
+docker run -itd --name mms -p 80:8080  -p 8081:8081 763104351884.dkr.ecr.us-east-1.amazonaws.com/mxnet-inference:1.7.0-cpu-py36-ubuntu16.04 \
 mxnet-model-server --start --mms-config /home/model-server/config.properties \
 --models squeezenet=https://s3.amazonaws.com/model-server/models/squeezenet_v1.1/squeezenet_v1.1.model
 
@@ -63,7 +63,7 @@ docker rm -f mms
 ### Apache MXNet (GluonCV) Inference (CPU-based)
 
 ```
-docker run -it --name mms -p 80:8080  -p 8081:8081 763104351884.dkr.ecr.us-east-1.amazonaws.com/mxnet-inference:1.7.0-cpu-py36-ubuntu16.04 \
+docker run -itd --name mms -p 80:8080  -p 8081:8081 763104351884.dkr.ecr.us-east-1.amazonaws.com/mxnet-inference:1.7.0-cpu-py36-ubuntu16.04 \
 mxnet-model-server --start --mms-config /home/model-server/config.properties \
 --models gluoncv_yolo3=https://dlc-samples.s3.amazonaws.com/mxnet/gluon/gluoncv_yolo3.mar
 
