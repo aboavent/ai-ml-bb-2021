@@ -1,4 +1,4 @@
-# Day 2 - Exploratory Data Analysis & Modeling
+# Domain 2 - Exploratory Data Analysis
 
 ## Feature Engineering
 - Data Wrangler and Feature Store
