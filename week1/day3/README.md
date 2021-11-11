@@ -27,5 +27,8 @@ Security on Amazon SageMaker
 - [Bring-your-own Algorithm Sample](https://github.com/aws/amazon-sagemaker-examples/tree/master/advanced_functionality/scikit_bring_your_own/container)
 Here is a comprehensive [blog post](https://aws.amazon.com/blogs/machine-learning/train-and-host-scikit-learn-models-in-amazon-sagemaker-by-building-a-scikit-docker-container/) on the BYOC topic based on this example 
 
+## Additional Resources
+- https://aws.amazon.com/blogs/mt/enable-self-service-secured-data-science-using-amazon-sagemaker-notebooks-and-aws-service-catalog/
+
 
 
