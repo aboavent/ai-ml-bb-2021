@@ -1,4 +1,4 @@
-# Machine Learning Implementation & Operations
+# Domain 3 - Modeling 
 - Build machine learning solutions for performance, availability, scalability, resiliency, and fault tolerance.
 - Amazon Deep Learning containers
 - Amazon SageMaker build your own containers
@@ -14,8 +14,6 @@
 
 ## Homework
 
-
-
 ### Direct Marketing with Amazon SageMaker Autopilot
 - https://github.com/aboavent/ai-ml-bb-2021/blob/main/week2/day1/autopilot.ipynb
 
@@ -25,7 +23,6 @@
 - https://sagemaker-workshop.com/builtin/parallelized.html
 - http://dsjn0irf6z142.cloudfront.net/ or https://github.com/shashankprasanna/distributed-training-workshop
 - https://www.hpcworkshops.com/08-ml-on-parallelcluster.html
-
 
 ### Additional Resources
 - https://aws.amazon.com/blogs/machine-learning/multi-gpu-and-distributed-training-using-horovod-in-amazon-sagemaker-pipe-mode/
