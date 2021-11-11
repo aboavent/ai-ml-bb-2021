@@ -1,4 +1,4 @@
-# Day 3 - Modeling
+# Domain 3 - Modeling
 
 ## Bring you own Custom Models
 - [Bring your own training-completed Pytorch model](https://github.com/aboavent/ai-ml-bb-2021/tree/main/week1/day3/amazon-sagemaker-custom-container)
