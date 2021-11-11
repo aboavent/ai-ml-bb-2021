@@ -1,7 +1,7 @@
 # Domain 4: ML Implementation and Operations
 
-## Amazon SageMaker Safe Deployment Pipeline - Built-In-Algorithm - Advanced Blue/Green Deployment Pipeline with CodePipeline, CodeCommit, CodeBuild, and CodeDeploy
-Pipeline using SageMaker features such as Experiments & Model Monitor as well as building a pipeline to train and deploy a model built using SageMaker's XGBoost built-in-algorithm. 
+## Amazon SageMaker Safe Deployment Pipeline
+Advanced Blue/Green Deployment Pipeline with CodePipeline, CodeCommit, CodeBuild, and CodeDeploy using SageMaker features such as Experiments & Model Monitor as well as building a pipeline to train and deploy a model built using SageMaker's XGBoost built-in-algorithm. 
 - https://github.com/aws-samples/amazon-sagemaker-safe-deployment-pipeline
 
 ## SageMaker Pipelines
