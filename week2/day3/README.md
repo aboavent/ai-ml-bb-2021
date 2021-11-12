@@ -22,9 +22,11 @@ Use case for the lab: **Media Indexing and Intelligent Search**
 
 - https://aws.amazon.com/blogs/machine-learning/make-your-audio-and-video-files-searchable-using-amazon-transcribe-and-amazon-kendra/
 
-Optional use cases:
-- Video Subtitling
-- Contact Center Analytics
+Others use cases to be explored further:
+- [Video Subtitling](https://aws.amazon.com/blogs/machine-learning/translate-video-captions-and-subtitles-using-amazon-translate/)
+- [Contact Center Analytics](https://aws.amazon.com/blogs/machine-learning/simplify-and-automate-anomaly-detection-in-streaming-data-with-amazon-lookout-for-metrics/)
+- [Implementing Serverless Video Subtitles](https://aws.amazon.com/blogs/compute/implementing-serverless-video-subtitles/) & [github repo](https://github.com/awslabs/serverless-subtitles)
+- [Create video subtitles with translation using machine learning](https://aws.amazon.com/blogs/machine-learning/create-video-subtitles-with-translation-using-machine-learning/)
 
 ### Amazon Personalize
 - [Recommendation Engine with Amazon Personalize](https://catalog.us-east-1.prod.workshops.aws/v2/workshops/6ff48ab1-6732-4108-afaa-b598665fb4b0/en-US/ai-services/personalize)
