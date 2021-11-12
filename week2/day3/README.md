@@ -30,7 +30,7 @@ Optional use cases:
 - [Recommendation Engine with Amazon Personalize](https://catalog.us-east-1.prod.workshops.aws/v2/workshops/6ff48ab1-6732-4108-afaa-b598665fb4b0/en-US/ai-services/personalize)
 
 ### Rekognition
-- [Rekognition](https://github.com/samir-souza/ai-workshop/tree/master/lab/01_WarmUp/01_Rekognition)
+- [Rekognition](https://rekognition-immersionday.workshop.aws/en/)
 
 ### Amazon Forecast (Homework)
 - [Forecasting with Amazon Forecast](https://catalog.us-east-1.prod.workshops.aws/v2/workshops/6ff48ab1-6732-4108-afaa-b598665fb4b0/en-US/ai-services/forecast)
