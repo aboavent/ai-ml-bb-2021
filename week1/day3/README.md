@@ -29,7 +29,7 @@ Here is a comprehensive [blog post](https://aws.amazon.com/blogs/machine-learnin
 
 - [Sagemaker Labs](https://catalog.us-east-1.prod.workshops.aws/v2/workshops/6ff48ab1-6732-4108-afaa-b598665fb4b0/en-US/sagemaker-labs)
 
-These labs cover SageMaker's built-in algortihms and how to create your own custom algorithms. The built-in algorithms are ready-to-use, scalable, and optimized for the AWS environment, as examplified in the XGBoostLab. The main Deep Learning Frameworks: PyTorch, Tensor Flow, and Apache MXNet are all supported, and each has an associated lab.
+These labs cover SageMaker's built-in algortihms and how to create your own custom algorithms. The built-in algorithms are ready-to-use, scalable, and optimized for the AWS environment, as exemplified in the XGBoostLab. The main Deep Learning Frameworks: PyTorch, Tensor Flow, and Apache MXNet are all supported, and each has an associated lab.
 
 ## Additional Resources
 - https://aws.amazon.com/blogs/mt/enable-self-service-secured-data-science-using-amazon-sagemaker-notebooks-and-aws-service-catalog/
