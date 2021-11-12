@@ -18,7 +18,7 @@ Recommend and implement the appropriate machine learning services and features f
 
 - https://github.com/aws-samples/aws-kendra-transcribe-media-search
 
-Use case for the lab: **Media Indexing and intelligent search**
+Use case for the lab: **Media Indexing and Intelligent Search**
 
 - https://aws.amazon.com/blogs/machine-learning/make-your-audio-and-video-files-searchable-using-amazon-transcribe-and-amazon-kendra/
 
