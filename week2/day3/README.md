@@ -1,5 +1,18 @@
 # Domain 4 - Amazon AI Services
 
+Recommend and implement the appropriate machine learning services and features for a given problem. Services included in today's session:
+- Amazon Textract        
+- Amazon Transcribe        
+- Amazon Comprehend        
+- Amazon Rekognition
+- Amazon Forecast        
+- Amazon Personalize        
+- Amazon Translate        
+- Amazon Lex        
+- Amazon Polly
+- Amazon Lookout for Metrics        
+- Amazon Lookout for Equipment
+
 ## Labs
 ### Amazon Transcribe + Comprehend + Kendra
 
