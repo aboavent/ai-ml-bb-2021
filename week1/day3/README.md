@@ -33,6 +33,8 @@ These labs cover SageMaker's built-in algortihms and how to create your own cust
 
 ## Additional Resources
 - https://aws.amazon.com/blogs/mt/enable-self-service-secured-data-science-using-amazon-sagemaker-notebooks-and-aws-service-catalog/
+- https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html
+- https://aws.amazon.com/blogs/opensource/why-use-docker-containers-for-machine-learning-development/
 
 
 
