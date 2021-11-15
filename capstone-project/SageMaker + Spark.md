@@ -9,11 +9,16 @@ The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistic
 Leverage Sagemaker for model training and hosting and implement all requirements as per the Capstone Project Rubric
 
 ## Data sources
-- On-time reporting data: You can download the zip by year/month
-  - https://www.transtats.bts.gov/DL_SelectFields.asp?DB_Short_Name=On-Time&Table_ID=236
+
+- On-time reporting data. You can find more instructions on the dataset as follows:
+  - https://www.transtats.bts.gov/ONTIME/
+  - https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFD&QO_anzr=Nv4yv0r%FDb0-gvzr%FDcr4s14zn0pr%FDQn6n&QO_fu146_anzr=b0-gvzr
+  - https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
+- and how to download the zip by year/month as per link below:
+  - https://www.transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FGJ
 
 
-- Extra credit : Combine with weather data from NOAA to build a better model
+- Extra credit: Combine with weather data from NOAA to build a better model
   - https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/
   - https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
 
