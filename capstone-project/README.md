@@ -1,6 +1,6 @@
 ## Use Cases
 
-- [Banking Fraud](https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/blob/master/Writeups/Banking%20Fraud.md)
+- [Banking Fraud](Banking%20Fraud.md)
 
 - [Recommendation Engine](https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/blob/master/Writeups/Recommendation%20Engine.md)
 
