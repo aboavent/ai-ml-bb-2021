@@ -6,9 +6,7 @@ The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistic
 ![flight delays](https://user-images.githubusercontent.com/1559391/56873334-3c3d4e00-69f7-11e9-8ed6-7f585bae5361.png)
 
 ## Project Goals
-Your mission is two-fold. 
-- Demonstrate how to use Spark for ETL and feature engineering on the input data. This will be the airline data and the *optional* Noaa data
-- Leverage Sagemaker for model training and hosting
+Leverage Sagemaker for model training and hosting and implement all requirements as per the Capstone Project Rubric
 
 ## Data sources
 - On-time reporting data: You can download the zip by year/month
