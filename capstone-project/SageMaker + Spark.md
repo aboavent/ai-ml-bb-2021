@@ -14,7 +14,7 @@ Leverage Sagemaker for model training and hosting and implement all requirements
   - https://www.transtats.bts.gov/ONTIME/
   - https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFD&QO_anzr=Nv4yv0r%FDb0-gvzr%FDcr4s14zn0pr%FDQn6n&QO_fu146_anzr=b0-gvzr
   - https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
-- and how to download the zip by year/month as per link below:
+- and how to download the zip by year/month as per link below(See **Download Instructions link** at the top of the page):
   - https://www.transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FGJ
 
 
