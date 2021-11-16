@@ -1,4 +1,14 @@
-# Domain 2 - Exploratory Data Analysis
+# Domain 2 - Exploratory Data Analysis & Amazon Sagemaker Overview and New features
+
+Amazon SageMaker is a fully managed service that allows developers and data scientists  to build, train, and deploy machine learning models. There are a lot of components to SageMaker, whether you’re using the managed development environments, the ephemeral training clusters, the hyperparamater tuning, or the deployed endpoints among lots of different features and capabilities. 
+
+We typically talk about those capabilities as falling into four categories: Data preparation, the model build phase, training and tuning, and deployment and management (or hosting). 
+These four categories really address the needs that ML builders have when dealing with each stage of a model’s lifecycle. 
+
+During this session, I will walk you through on the 4 key categories and give you a full feature tour of as many of these features that might be interesting to you. 
+
+[![AWS Deep Learning Containers on ECS](../../images/Amazon_Sagemaker_Overview_Youtube.png)](https://youtu.be/u2UPZBWGPHs)
+
 
 ## Feature Engineering
 - Data Wrangler and Feature Store
