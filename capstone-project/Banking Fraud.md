@@ -6,7 +6,7 @@ Today, your task is to design a system capable of automatically catching fraudul
 
 ## Your Data 
 Create a Kaggle account and download your data from this location:
-* https://www.kaggle.com/ntnu-testimon/paysim1 
+* https://www.kaggle.com/ealaxi/paysim1 
 
 You will have 182 MB of records, just over 6 million records with 11 columns. This data set is a simulation, designed to accelerate research for financial applications. Each record is a single transaction, marked as cash in, cash out, debit, credit, or transfer. Each transaction will also have the amount, the name of origin, etc.  Interestingly enough you'll have 2 target columns. One appears to be an indicator isFraud, which should be a manual label. Another is a flag based on a rule applied, that is, when a transaction has been attempted for over 200,000. 
 
