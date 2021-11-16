@@ -1,6 +1,16 @@
 # Domain 3 - Modeling
 
-## Bring you own Custom Models
+## Bring you own Custom Models and Containers with Amazon Sagemaker
+
+SageMaker makes extensive use of Docker containers to allow users to train and deploy algorithms. Containers allow developers and data scientists to package software into standardized units that run consistently on any platform that supports Docker. Containerization packages code, runtime, system tools, system libraries and settings all in the same place, isolating it from its surroundings, and insuring a consistent runtime regardless of where it is being run.
+
+When you develop a model in Amazon SageMaker, you can provide separate Docker images for the training code and the inference code, or you can combine them into a single Docker image.
+
+In this session, I dive deeply on both scenarios that use containers for Deep Learning frameworks such as Pytorch, Tensorflow, and MXNet, and custom containers where developers and data scientists can bring their own data and container to address use cases that requires the implementation of complex code with special additions to the framework including libraries, packages, etc.
+
+[![AWS Deep Learning Containers on ECS](../../images/Amazon_Sagemaker_Overview_Youtube.png)](https://youtu.be/lCjDikW20IQ)
+
+### Lab
 - [Bring your own training-completed Pytorch model](https://github.com/aboavent/ai-ml-bb-2021/tree/main/week1/day3/amazon-sagemaker-custom-container)
 
 ## SageMaker Clarify
