@@ -15,6 +15,8 @@ Advanced Blue/Green Deployment Pipeline with CodePipeline, CodeCommit, CodeBuild
 ### MLOps
 MLOps refers to a methodology that is built on applying DevOps practices to machine learning workloads. DevOps focuses on the intersection of development and operations disciplines to streamline software delivery across the Software Development Lifecycle(SDLC). MLOps focuses on the intersection of data science, data engineering in combination with existing DevOps practices to streamline model delivery across the Machine Learning Development Lifecycle (MLDC).
 
+[![Implementing MLOps practices with Amazon SageMaker](../../images/MLOps_youtube.png)](https://youtu.be/MuY96CF_3U8)
+
 https://github.com/aws-samples/mlops-amazon-sagemaker-devops-with-ml
 
 **Solutions:**
