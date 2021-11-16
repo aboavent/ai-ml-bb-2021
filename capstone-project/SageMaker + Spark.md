@@ -37,7 +37,8 @@ Tenets
 
 Artifacts:
 - PPT
-- Code/Notebook walkthrough
+- Code/Notebook walkthrough video
+- github repository with source code
 
 Extra points
 - Run a live demo with a custom UI 
