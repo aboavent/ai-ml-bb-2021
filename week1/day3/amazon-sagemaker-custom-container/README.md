@@ -220,6 +220,23 @@ It will take a few minutes for CloudFormation to complete provisioning of EC2 in
 **Congratulations! You have completed the session.** If your Lambda function returns **green** colored message back, move on to [Conclusion](#conclusion). 
 
 
+## (Optional) Update the recently created pytorch inference image
+1) run docker images and get the Image ID from the local docker repository with a similar repository URI: **903815249122.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle**
+
+![dockerimages](./images/dockerimages.png)
+
+
+2) docker run -it 9dd2007f01c8 /bin/bash
+
+3) *** inside the docker image
+apt-get update && apt-get install vim
+vi predictor.py
+
+*** run docker ps -a to get the container ID to be used with docker commit 
+
+docker commit ba9cb7d73b19 010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle:latest
+
+
 ## (Optional) Launch EC2 Instance
 
 **If you used CloudFormation to launch Cloud9 to build Docker container, skip this section.**
