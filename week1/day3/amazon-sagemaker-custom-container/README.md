@@ -115,7 +115,7 @@ It will take a few minutes for CloudFormation to complete provisioning of EC2 in
     ./download_and_push.sh image_classification_recycle
     ```
     
-    Either of these steps will take around 15-20 minutes to complete.
+    Either of these steps above will take around 15-20 minutes to complete.
 
 1. Run the following commands to copy the contents of data and model folders to your S3 bucket (the bucket has to be in the same region as the region you will be using SageMaker). The model folder contains the sample train-competed model to deploy. The data folder contains test images for making an inference on the model. 
 
