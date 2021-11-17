@@ -217,24 +217,53 @@ It will take a few minutes for CloudFormation to complete provisioning of EC2 in
 
     ![lambdaTestSuceed](./images/lambdaTestSuceed.png)
 
-**Congratulations! You have completed the session.** If your Lambda function returns **green** colored message back, move on to [Conclusion](#conclusion). 
+ 
+## Update the recently created pytorch inference image. Changing predictor.py file 
+**(Remember to replace container & image ID's with yours while running through these steps as required)**
 
+1) Run **docker images** to get the **Image ID** from the local docker repository with a similar repository URI: **010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle**
 
-## Update the recently created pytorch inference image. Changing predictor.py file
-1) Run docker images and get the Image ID from the local docker repository with a similar repository URI: **010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle**
+2) Execute **docker run -it 9dd2007f01c8 /bin/bash** to get inside the docker container
 
-![dockerimages](./images/dockerimages.png)
+![docker-images-docker-run](./images/docker-images-docker-run.png)
 
+3) Now run **apt-get update && apt-get install vim** to install a text editor. Then open the file through:
+**vi predictor.py**
 
-2) docker run -it 9dd2007f01c8 /bin/bash
+![insidecontainer](./images/insidecontainer.png)
 
-3) *** inside the docker image
-apt-get update && apt-get install vim
-vi predictor.py
+4) and make a change to the return command
 
-*** run docker ps -a to get the container ID to be used with docker commit 
+![predictorpy](./images/predictorpy.png)
 
-docker commit ba9cb7d73b19 010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle:latest
+5) Then, exit container and run **docker ps -a** to get the container ID 
+![dockerps](./images/dockerps.png)
+
+6) Now use the **container ID** obtained in the previous step to commit the changes to the local docker image 
+
+ ``` 
+docker commit b04adc02b169 010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle:latest
+ ``` 
+
+7) Push changes to ECR
+
+```
+docker push 010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle:latest
+``` 
+![pushecr](./images/pushecr.png)
+
+![newECRimage](./images/newECRimage.png)
+
+8) Create a new Sagemaker endpoint(but give it a different name than the previous created e.g., **image-classification-recycle2**) as per instructions on [Create an endpoint](#create-an-endpoint) on SageMaker. This will download the most recent changes pushed into the ECR repository. Please nothe that this step is likely to take 4-5 minutes.
+
+9) At the lambda console, point the environment variable **SAGEMAKER_ENDPOINT_NAME** to the latest endpoint(**image-classification-recycle2**) just created. Change the **Call_SageMaker_Endpoint_Image_Classification** Lambda function to receive the response as required. See picture below for details
+![lambdafunctionchange](./images/lambdafunctionchange.png)
+
+10) Finally, if everything worked as expected, you should get the following output at the lambda "Execution Results" tab
+![lambdaresponse](./images/lambdaresponse.png)
+
+**Congratulations! You have completed the session.** If your Lambda function returns **green** colored message back, move on to [Conclusion](#conclusion).
+
 
 
 ## (Optional) Launch EC2 Instance
