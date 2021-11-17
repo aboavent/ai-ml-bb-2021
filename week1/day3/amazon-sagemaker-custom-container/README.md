@@ -256,10 +256,11 @@ docker push 010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_re
 
 8) Create a new Sagemaker endpoint(but give it a different name than the previous created e.g., **image-classification-recycle2**) as per instructions on [Create an endpoint](#create-an-endpoint) on SageMaker. This will download the most recent changes pushed into the ECR repository. Please nothe that this step is likely to take 4-5 minutes.
 
-9) At the lambda console, point the environment variable **SAGEMAKER_ENDPOINT_NAME** to the latest endpoint(**image-classification-recycle2**) just created. Change the **Call_SageMaker_Endpoint_Image_Classification** Lambda function to receive the response as required. See picture below for details
+9) At the lambda console, point the environment variable **SAGEMAKER_ENDPOINT_NAME** to the latest endpoint(**image-classification-recycle2**) just created. Change the **Call_SageMaker_Endpoint_Image_Classification** Lambda function to receive the response as required. See picture below for details:
+
 ![lambdafunctionchange](./images/lambdafunctionchange.png)
 
-10) Finally, if everything worked as expected, you should get the following output at the lambda "Execution Results" tab
+10) Finally, if everything worked as expected, you should find the following output in the Lambda **Execution Results** tab:
 ![lambdaresponse](./images/lambdaresponse.png)
 
 **Congratulations! You have completed the session.** If your Lambda function returns **green** colored message back, move on to [Conclusion](#conclusion).
