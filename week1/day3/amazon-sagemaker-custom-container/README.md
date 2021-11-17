@@ -220,8 +220,8 @@ It will take a few minutes for CloudFormation to complete provisioning of EC2 in
 **Congratulations! You have completed the session.** If your Lambda function returns **green** colored message back, move on to [Conclusion](#conclusion). 
 
 
-## (Optional) Update the recently created pytorch inference image
-1) run docker images and get the Image ID from the local docker repository with a similar repository URI: **903815249122.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle**
+## Update the recently created pytorch inference image. Changing predictor.py file
+1) Run docker images and get the Image ID from the local docker repository with a similar repository URI: **010136283701.dkr.ecr.us-east-1.amazonaws.com/image_classification_recycle**
 
 ![dockerimages](./images/dockerimages.png)
 
