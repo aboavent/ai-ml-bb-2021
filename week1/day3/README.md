@@ -13,6 +13,8 @@ In this session, I dive deeply on both scenarios that use containers for Deep Le
 ### Lab
 - [Bring your own training-completed Pytorch model](https://github.com/aboavent/ai-ml-bb-2021/tree/main/week1/day3/amazon-sagemaker-custom-container)
 
+[![Bring your own training-completed Pytorch model step-by-step lab recording](../../images/bringyourownpytorchyoutube.png)](https://youtu.be/VzL_9PaHMk0)
+
 ## SageMaker Clarify
 - [Hands-on Lab](https://sagemaker-immersionday.workshop.aws/en/lab5.html)
 - [Fairness and Explainability with SageMaker Clarify](https://github.com/pedrosola/bbmlaws/blob/master/bias_and_explainability.ipynb) 
